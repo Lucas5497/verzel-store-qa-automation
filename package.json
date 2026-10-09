@@ -1,0 +1,23 @@
+{
+  "name": "verzel-store-qa",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Automação Playwright + Gherkin (BDD) — VZS-142",
+  "scripts": {
+    "bddgen": "bddgen --config playwright.config.ts",
+    "test": "npm run bddgen && npx playwright test",
+    "test:api": "npm run bddgen && npx playwright test --project=api",
+    "test:ui": "npm run bddgen && npx playwright test --project=ui-chromium",
+    "test:headed": "npm run bddgen && npx playwright test --project=ui-chromium --headed",
+    "test:bug": "npm run bddgen && npx playwright test --grep @bug",
+    "report": "npx playwright show-report",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.49.1",
+    "playwright": "1.49.1",
+    "playwright-bdd": "7.5.0",
+    "typescript": "5.7.2",
+    "@types/node": "22.10.2"
+  }
+}

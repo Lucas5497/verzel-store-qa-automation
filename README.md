@@ -13,6 +13,7 @@ O objetivo é demonstrar como uma estratégia de QA pode combinar testes automat
 
 > **Nota sobre o status:** os relatórios, workflows, publicação no GitHub Pages e dashboard descritos neste documento dependem das respectivas configurações. Consulte a estrutura real do repositório para identificar quais recursos já estão implementados.
 
+**[Acessar relatório online](https://lucas5497.github.io/verzel-store-qa-automation/)**
 ---
 
 ## 📑 Sumário
